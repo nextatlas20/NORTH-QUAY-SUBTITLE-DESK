@@ -1,0 +1,147 @@
+{
+  "cutoff": "2086-10-14T12:00:00Z",
+  "summary": {
+    "scoped_films": 6,
+    "ready_films": 1,
+    "blocked_films": 5,
+    "required_packages": 12,
+    "approved": 7,
+    "rejected": 2,
+    "withdrawn": 1,
+    "missing": 2
+  },
+  "films": [
+    {
+      "film_id": "FM-01",
+      "title": "Clouds at Noon",
+      "venue": "Hall A",
+      "readiness": "blocked",
+      "packages": [
+        {
+          "language": "de",
+          "state": "approved",
+          "delivery_id": "DV-0001",
+          "delivered_at": "2086-10-10T09:00:00Z",
+          "checksum": "a1b2c3d4"
+        },
+        {
+          "language": "fr",
+          "state": "rejected",
+          "delivery_id": "DV-0002",
+          "delivered_at": "2086-10-11T11:30:00Z",
+          "checksum": "bb22cc33"
+        }
+      ]
+    },
+    {
+      "film_id": "FM-02",
+      "title": "Salt Meridian",
+      "venue": "Hall C",
+      "readiness": "blocked",
+      "packages": [
+        {
+          "language": "es",
+          "state": "approved",
+          "delivery_id": "DV-0003",
+          "delivered_at": "2086-10-09T15:00:00Z",
+          "checksum": "1234abcd"
+        },
+        {
+          "language": "fr",
+          "state": "withdrawn",
+          "delivery_id": "DV-0005",
+          "delivered_at": "2086-10-12T18:00:00Z",
+          "checksum": null
+        },
+        {
+          "language": "ja",
+          "state": "approved",
+          "delivery_id": "DV-0006",
+          "delivered_at": "2086-10-12T07:45:00Z",
+          "checksum": "90abcdef"
+        }
+      ]
+    },
+    {
+      "film_id": "FM-03",
+      "title": "Paper Comet",
+      "venue": "Hall B",
+      "readiness": "blocked",
+      "packages": [
+        {
+          "language": "de",
+          "state": "approved",
+          "delivery_id": "DV-0008",
+          "delivered_at": "2086-10-13T20:15:00Z",
+          "checksum": "2222bbbb"
+        },
+        {
+          "language": "it",
+          "state": "missing",
+          "delivery_id": null,
+          "delivered_at": null,
+          "checksum": null
+        }
+      ]
+    },
+    {
+      "film_id": "FM-05",
+      "title": "River Cipher",
+      "venue": "Hall A",
+      "readiness": "blocked",
+      "packages": [
+        {
+          "language": "fr",
+          "state": "approved",
+          "delivery_id": "DV-0009",
+          "delivered_at": "2086-10-10T12:00:00Z",
+          "checksum": "3333cccc"
+        },
+        {
+          "language": "ko",
+          "state": "rejected",
+          "delivery_id": "DV-0010",
+          "delivered_at": "2086-10-13T22:00:00Z",
+          "checksum": "4444dddd"
+        }
+      ]
+    },
+    {
+      "film_id": "FM-06",
+      "title": "Winter Static",
+      "venue": "Hall C",
+      "readiness": "blocked",
+      "packages": [
+        {
+          "language": "en",
+          "state": "approved",
+          "delivery_id": "DV-0011",
+          "delivered_at": "2086-10-11T06:00:00Z",
+          "checksum": "5555eeee"
+        },
+        {
+          "language": "pt",
+          "state": "missing",
+          "delivery_id": null,
+          "delivered_at": null,
+          "checksum": null
+        }
+      ]
+    },
+    {
+      "film_id": "FM-08",
+      "title": "Quiet Engine",
+      "venue": "Hall D",
+      "readiness": "ready",
+      "packages": [
+        {
+          "language": "es",
+          "state": "approved",
+          "delivery_id": "DV-0018",
+          "delivered_at": "2086-10-12T08:30:00Z",
+          "checksum": "ddddeeee"
+        }
+      ]
+    }
+  ]
+}
